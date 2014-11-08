@@ -1,1 +1,1 @@
--record(always_checkbox, {?ELEMENT_BASE(always_checkbox), postback_id, yes_value="1", no_value="0", checked=false}). 
+-record(always_checkbox, {?ELEMENT_BASE(always_checkbox), postback_id, wrapper_id, yes_value="1", no_value="0", checked=false}). 
