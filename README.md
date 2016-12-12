@@ -45,9 +45,10 @@ Then add the following includes into any module requiring the form
 		checked=true
 	}.	
 ```
-        Note that this plugin works by using a hidden input to store
-        the intended values. That hidden input id, which is the one
-        you will wf:q(...), is set with the postback_id parameter.
+
+Note that this plugin works by using a hidden input to store
+the intended values. That hidden input id, which is the one
+you will wf:q(...), is set with the postback_id parameter.
 
 ## License
 
