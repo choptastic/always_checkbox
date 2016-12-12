@@ -39,11 +39,16 @@ Then add the following includes into any module requiring the form
 
 ```erlang
 	#always_checkbox{
+		postback_id=my_checkbox,
 		yes_value="Yes it's checked",
 		no_value="Not checked",
 		checked=true
 	}.	
 ```
+
+Note that this plugin works by using a hidden input to store
+the intended values. That hidden input id, which is the one
+you will wf:q(...), is set with the postback_id parameter.
 
 ## License
 
